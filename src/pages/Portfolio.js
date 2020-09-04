@@ -12,7 +12,7 @@ const projects = [
     photo: 'https://i.imgur.com/Fbl72nn.png',
   },
   {
-    id: 1,
+    id: 2,
     name: 'Rick and Morty',
     description:
       'A Single page application using vanilla javascript and comsume info from a API',
@@ -22,7 +22,7 @@ const projects = [
     photo: 'https://i.imgur.com/9kS9md4.png',
   },
   {
-    id: 1,
+    id: 3,
     name: 'Wikipedia Clone',
     description:
       'A  HTML and CSS chanllenge, its the landing page of wikipedia i make it using modern css: grid and flexbox',
