@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const FooterMain = styled.footer`
-  height: 100px;
-  background-color: #031829;
+  height: 180px;
+  background-color: var(--darkColor);
   width: 100%;
 `
 
@@ -16,7 +16,20 @@ export const Container = styled.div`
 `
 export const Contact = styled.div`
   margin-top: 10px;
+  h3 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
   & span {
+    color: #009bd5;
+  }
+  div {
+    margin: 20px 0;
+  }
+  a {
+    text-decoration: underline;
     color: #009bd5;
   }
 `

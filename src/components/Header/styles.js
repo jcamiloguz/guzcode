@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
 export const Headers = styled.header`
-  background-color: #00284a;
+  background-color: var(--primaryColor);
   width: 100%;
-  position: fixed;
   top: 0;
   right: 0;
   font-size: 1.8rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
 `
 export const Header__container = styled.div`
   max-width: 1200px;

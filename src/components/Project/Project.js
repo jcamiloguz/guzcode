@@ -1,19 +1,27 @@
 import React from 'react'
-
+import { Container, Wrapper, Info, Button } from './styles'
+import { CgWebsite } from 'react-icons/cg'
+import { AiFillGithub } from 'react-icons/ai'
 export const Project = ({ project }) => {
   const { name, description, github, live, photo } = project
   return (
-    <>
-      <div className="imgWrapper">
+    <Container>
+      <Wrapper className="imgWrapper">
         <img src={photo} alt="" />
-      </div>
+      </Wrapper>
 
-      <div className="info">
+      <Info className="info">
         <h2>{name}</h2>
         <p>{description}</p>
-        <a href={github}>Github</a>
-        <a href={live}>Live</a>
-      </div>
-    </>
+        <Button href={github}>
+          Github
+          <AiFillGithub size={20} />
+        </Button>
+        <Button href={live}>
+          Live
+          <CgWebsite size={20} />
+        </Button>
+      </Info>
+    </Container>
   )
 }

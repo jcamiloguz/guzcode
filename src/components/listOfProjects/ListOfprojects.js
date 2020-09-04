@@ -1,12 +1,12 @@
 import React from 'react'
 import { Project } from '../Project/Project'
-
+import { List } from './styles'
 export const ListOfProjects = ({ projects }) => {
   return (
-    <div className="list">
+    <List>
       {projects.map((pro) => (
         <Project key={pro.id} project={pro}></Project>
       ))}
-    </div>
+    </List>
   )
 }
