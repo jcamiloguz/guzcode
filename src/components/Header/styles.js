@@ -7,6 +7,8 @@ export const Headers = styled.header`
   right: 0;
   font-size: 1.8rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+	position:fixed;
+	z-index: 1;
 `
 export const Header__container = styled.div`
   max-width: 1200px;
@@ -26,7 +28,7 @@ export const Nav = styled.nav`
       cursor: pointer;
     }
     & li:hover {
-      color: #009bd5;
+      color:var(--secondLight);
     }
   }
 `

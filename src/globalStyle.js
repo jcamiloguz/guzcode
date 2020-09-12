@@ -6,6 +6,8 @@ export const GlobalStyle = createGlobalStyle`
 	--secondaryColor: #ededed;
 	--darkColor: #0b1315;
 	--lightColor:#FF557B;
+	--secondLight:#009bd5;
+	--secondDark:#fff7;
 	
 	}
 html {
@@ -16,7 +18,9 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-
+::-webkit-scrollbar {
+display:none
+}
 ul, li, h1, h2, h3, p, button {
 	margin: 0;
 	padding: 0;

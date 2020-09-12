@@ -1,9 +1,11 @@
 import styled from 'styled-components'
-
+import footerImage from '../../assets/static/footer.png'
 export const FooterMain = styled.footer`
   height: 180px;
-  background-color: var(--darkColor);
+  background-color:#080a0a;
   width: 100%;
+	position:relative;
+	margin-top: 150px;
 `
 
 export const Container = styled.div`
@@ -16,6 +18,7 @@ export const Container = styled.div`
 `
 export const Contact = styled.div`
   margin-top: 10px;
+	color:	var(--secondDark);
   h3 {
     font-size: 1.2rem;
   }
@@ -23,20 +26,23 @@ export const Contact = styled.div`
     font-size: 1.1rem;
   }
   & span {
-    color: #009bd5;
+    color: var(--secondLight);
   }
   div {
     margin: 20px 0;
   }
   a {
     text-decoration: underline;
-    color: #009bd5;
+    color: var(--secondLight);
   }
 `
 export const Rrss = styled.div`
   display: flex;
   height: 100%;
   align-items: center;
+	@media screen and (max-width: 500px){
+		flex-direction:column;
+	}
 `
 export const Rrrs__item = styled.a`
   width: 60px;
@@ -48,6 +54,16 @@ export const Rrrs__item = styled.a`
   position: relative;
   color: #fff7;
   & :hover {
-    color: #009bd5;
+    color: var(--secondLight);
   }
+`
+export const City = styled.div`
+width:100%;
+height:160px;
+background-image: url(${footerImage});
+background-position:center;
+background-repeat:no-repeat;
+position:absolute;
+top:-134px;
+
 `
