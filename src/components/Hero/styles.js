@@ -7,57 +7,38 @@ export const Container = styled.section`
   height: 800px;
   text-align: center;
   position: relative;
-  h1 {
-    font-size: 4rem;
-    position: absolute;
-    right: 50%;
-    transform: translateX(50%);
-    z-index: -1;	
-    top: 60px;
-	}
+`
+export const Background = styled.div`
+position: absolute;
+top: 0;
+right: 0;
+background-image: url(${imagen});
+width: 100%;
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: -2;
+`
+export const Title = styled.div`
+position:absolute;
+top:100px;
+left:0;
+width:100%;
+text-align:center;
+h1{
+	font-weight:600;
+	font-size:4rem;
+	}	
+h2{
+	font-weight:400;
+	font-size:2rem;
 }
-  h2 {
-    font-size: 3rem;
-    font-weight: 400;
-    position: absolute;
-    right: 50%;
-    top: 200px;
-    transform: translateX(50%);
-    z-index: -1;
-	
-  }
-  .fondo {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-image: url(${imagen});
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -2;
-  }
-@media screen and (max-width: 850px){
-	h1{
-		font-size: 3rem;
-	}
-	h2{
-    	font-size: 2rem;
-}
-@media screen and (max-width: 452px){
-	h1{
-			font-size: 3rem;
-    	top: 100px;
-			left: 0;
-			right:auto;
-    	transform: translateX(0%);
-	}
-	h2{
-    	font-size: 1.5rem;
-			left: 50%;
-			right:auto;
-    	transform: translateX(-50%);
-		}
+@media screen and (max-width:620px){
+h1{
+	font-size:3rem;
+	}	
+h2{
+	font-size:1.5rem;
 }
 `

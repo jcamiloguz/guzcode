@@ -1,11 +1,14 @@
 import React from 'react'
-import { Container } from './styles'
+import { Container, Title, Background } from './styles'
 export const Hero = () => {
-  return (
-    <Container>
-      <div className="fondo"></div>
-      <h1>Juan Camilo Guzmán</h1>
-      <h2>Software Developer</h2>
-    </Container>
-  )
+	return (
+		<Container>
+			<Background className="fondo"></Background>
+			<Title>
+				<h1>Juan Camilo Guzmán</h1>
+				<h2>Software Developer</h2>
+			</Title>
+
+		</Container>
+	)
 }

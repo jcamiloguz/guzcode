@@ -11,6 +11,13 @@ export const Container = styled.div`
   color: var(--primaryColor);
   border-radius: 10px;
   align-items: center;
+	@media screen and (max-width:1020px){
+  max-width: 600px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 250px 1fr;
+	justify-content:center;
+	text-align:center;
+}
 `
 export const Wrapper = styled.div`
   width: 100%;
@@ -18,9 +25,12 @@ export const Wrapper = styled.div`
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.7);
-  img {
-    width: 100%;
-  }
+	background-position: center top;
+	background-image:url('${props => props.photo}');
+	background-size:cover;
+		@media screen and (max-width:1020px){
+			height:	250px;
+		}
 `
 
 export const Info = styled.div`
@@ -31,6 +41,10 @@ export const Info = styled.div`
   border-radius: 10px;
   padding: 12px;
   box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.7);
+	@media screen and (max-width:1020px){
+		width:85%;
+		margin:0 auto;
+	}
 `
 
 export const Button = styled.div`
