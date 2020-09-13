@@ -4,6 +4,7 @@ import { Home } from '../pages/Home'
 import { Layout } from '../components/Layout/Layout'
 import { GlobalStyle } from '../globalStyle'
 import { Portfolio } from '../pages/Portfolio'
+import { Education } from '../pages/Education'
 
 export const App = () => {
 	return (
@@ -14,6 +15,7 @@ export const App = () => {
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route exact path="/portfolio" component={Portfolio} />
+						<Route exact path="/education" component={Education} />
 					</Switch>
 				</Layout>
 			</Router>

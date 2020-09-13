@@ -47,7 +47,7 @@ export const Info = styled.div`
 	}
 `
 
-export const Button = styled.div`
+export const Button = styled.a`
   display: inline-block;
   background-color: var(--primaryColor);
   color: var(--secondaryColor);
