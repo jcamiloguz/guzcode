@@ -5,6 +5,7 @@ import { Layout } from '../components/Layout/Layout'
 import { GlobalStyle } from '../globalStyle'
 import { Portfolio } from '../pages/Portfolio'
 import { Education } from '../pages/Education'
+import { NotFound } from '../pages/NotFound'
 
 export const App = () => {
 	return (
@@ -16,6 +17,8 @@ export const App = () => {
 						<Route exact path="/" component={Home} />
 						<Route exact path="/portfolio" component={Portfolio} />
 						<Route exact path="/education" component={Education} />
+						<Route exact path="/education" component={Education} />
+						<Route component={NotFound} />
 					</Switch>
 				</Layout>
 			</Router>
