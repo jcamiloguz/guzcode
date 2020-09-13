@@ -16,8 +16,8 @@ const projects = [
 		name: 'Rick and Morty',
 		description:
 			'A Single page application using vanilla javascript and comsume info from a API',
-		github: 'github.com',
-		live: 'taskapp.com',
+		github: 'https://github.com/jcamiloguz/SPA-vanilla',
+		live: 'https://jcamiloguz.github.io/SPA-vanilla/',
 
 		photo: 'https://i.imgur.com/9kS9md4.png',
 	},
@@ -26,8 +26,8 @@ const projects = [
 		name: 'Wikipedia Clone',
 		description:
 			'A  HTML and CSS chanllenge, its the landing page of wikipedia i make it using modern css: grid and flexbox',
-		github: 'github.com',
-		live: 'taskapp.com',
+		github: 'https://github.com/jcamiloguz/wikipedia-clone',
+		live: 'https://jcamiloguz.github.io/wikipedia-clone/',
 
 		photo: 'https://i.imgur.com/ueAsErs.png',
 	},
@@ -36,8 +36,7 @@ const projects = [
 		name: 'Netflix Clone',
 		description:
 			'A  HTML and CSS chanllenge, its the landing page of wikipedia i make it using modern css: grid and flexbox',
-		github: 'github.com',
-		live: 'taskapp.com',
+		github: 'https://github.com/jcamiloguz/NetflixClone',
 
 		photo: 'https://i.imgur.com/Zg518C1.png',
 	},

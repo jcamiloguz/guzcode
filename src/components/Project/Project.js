@@ -16,10 +16,12 @@ export const Project = ({ project }) => {
 					Github
           <AiFillGithub size={20} />
 				</Button>
-				<Button href={live}>
-					Live
-          <CgWebsite size={20} />
-				</Button>
+				{live && (
+					<Button href={live}>
+						Live
+						<CgWebsite size={20} />
+					</Button>
+				)}
 			</Info>
 		</Container>
 	)
