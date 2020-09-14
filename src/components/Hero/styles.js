@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import imagen from '../../assets/static/prueba.jpg'
+import imagen from '../../assets/static/prueba.png'
 
 export const Container = styled.section`
   margin-top:40px;
