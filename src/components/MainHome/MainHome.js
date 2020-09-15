@@ -1,7 +1,7 @@
 import React from 'react'
 import { MainContainer, Tecnologies, Description } from './styles'
 import { Slider } from '../Slider/Slider'
-import { DiHtml5, DiCss3, DiReact, DiJavascript, DiSass, DiGit, DiMysql } from 'react-icons/di'
+import { DiHtml5, DiCss3, DiReact, DiJavascript1, DiSass, DiGit, DiMysql } from 'react-icons/di'
 export const MainHome = () => {
 
 	const SliderState = {
@@ -29,9 +29,9 @@ export const MainHome = () => {
 		{
 			id: 3,
 			name: 'JAVASCRIPT',
-			color: '#61DAFB',
+			color: '#F7DF1E',
 			Description: '',
-			Icon: DiJavascript
+			Icon: DiJavascript1
 		}
 			,
 		{
