@@ -1,7 +1,7 @@
 import React from 'react'
 import { MainContainer, Tecnologies, Description } from './styles'
 import { Slider } from '../Slider/Slider'
-import { DiHtml5, DiCss3, DiReact, DiNodejsSmall, DiSass, DiGit, DiMysql } from 'react-icons/di'
+import { DiHtml5, DiCss3, DiReact, DiJavascript, DiSass, DiGit, DiMysql } from 'react-icons/di'
 export const MainHome = () => {
 
 	const SliderState = {
@@ -24,6 +24,14 @@ export const MainHome = () => {
 			color: '#61DAFB',
 			Description: '',
 			Icon: DiReact
+		}
+			,
+		{
+			id: 3,
+			name: 'JAVASCRIPT',
+			color: '#61DAFB',
+			Description: '',
+			Icon: DiJavascript
 		}
 			,
 		{
@@ -53,7 +61,7 @@ export const MainHome = () => {
 		<MainContainer>
 			<Description>
 				<h2>Hi.</h2>
-				<p>I'm <span>software developer</span>  focused in <span light="true">web</span>  tecnologies based in Cali-Colombia, i'm also  <span>Multimedia enginering</span> student.</p>
+				<p>I'm a <span>software developer</span>  focused in <span light="true">web</span>  tecnologies based in Cali-Colombia, i'm also  <span>Multimedia enginering</span> student.</p>
 			</Description>
 			<Tecnologies>
 				<h2>My stack</h2>
@@ -61,10 +69,10 @@ export const MainHome = () => {
 			</Tecnologies>
 			<Description>
 				<h2>Other skills: </h2>
-				<p>I coded in <span >C#</span>,  <span>Java</span>, <span>MatLab</span> and <span>C++ (Ardunio)</span>. I try to be language agnostic. I have fundamentals of <span>Photoshop</span>, <span>Illustrator</span>, <span>Premiere</span> and <span>Protols</span>. I designed Web with <span>Adobe XD</span></p>
+				<p>I coded in <span >C#</span>,  <span>Java</span>, <span>MatLab</span> and <span>C++ (Ardunio)</span>. I try to be language agnostic. I have knowledge in: <span>Photoshop</span>, <span>Illustrator</span>, <span>Premiere</span> and <span>Protols</span>. I designed Web with <span>Adobe XD</span></p>
 			</Description>
 			<Description>
-				<h2>But i love to learn</h2>
+				<h2>I love to learn</h2>
 				<p>Other <span light='true'>technologies</span> what i interested for: <span>Vue.js</span> as an alternative to react, <span>Next.js</span> for server side rendering, <span>Gatsby</span> for static site generator, <span>GitLab</span> for Ci and Cd, Python for backend with <span>Django</span> </p>
 			</Description>
 

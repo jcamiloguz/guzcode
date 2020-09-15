@@ -21,7 +21,7 @@ export const Platzi = () => {
 					<li>Webpack</li>
 					<li>Terminal comands</li>
 				</ul>
-				<a href="https://platzi.com/@jcamiloguz/">Platzi profile</a>
+				<a target="_blank" rel="noopener noreferrer" href="https://platzi.com/@jcamiloguz/">Platzi profile</a>
 			</Info>
 		</Container >
 	)

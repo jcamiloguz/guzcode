@@ -11,7 +11,7 @@ export const Footer = () => {
 					<div className="">
 						<h3>Illustration by:</h3>
 						<p>
-							<a href="https://www.instagram.com/nowayout.here/">
+							<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nowayout.here/">
 								<span>Steven Villa</span>
 							</a>
 						</p>
@@ -26,13 +26,13 @@ export const Footer = () => {
 				</Contact>
 
 				<Rrss className="footer__rrss">
-					<Rrrs__item href="https://github.com/jcamiloguz">
+					<Rrrs__item target="_blank" rel="noopener noreferrer" href="https://github.com/jcamiloguz">
 						<AiFillGithub size={size} />
 					</Rrrs__item>
-					<Rrrs__item href="https://www.linkedin.com/in/juan-camio-guzman-sandoval-213087185/">
+					<Rrrs__item target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/juan-camio-guzman-sandoval-213087185/">
 						<AiFillLinkedin size={size} />
 					</Rrrs__item>
-					<Rrrs__item href="https://twitter.com/guzcode">
+					<Rrrs__item target="_blank" rel="noopener noreferrer" href="https://twitter.com/guzcode">
 						<AiOutlineTwitter size={size} />
 					</Rrrs__item>
 				</Rrss>
