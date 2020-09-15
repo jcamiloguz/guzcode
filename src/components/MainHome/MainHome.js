@@ -69,7 +69,7 @@ export const MainHome = () => {
 			</Tecnologies>
 			<Description>
 				<h2>Other skills: </h2>
-				<p>I coded in <span >C#</span>,  <span>Java</span>, <span>MatLab</span> and <span>C++ (Ardunio)</span>. I try to be language agnostic. I have knowledge in: <span>Photoshop</span>, <span>Illustrator</span>, <span>Premiere</span> and <span>Protols</span>. I designed Web with <span>Adobe XD</span></p>
+				<p>I coded in <span >C#</span>,  <span>Java</span>, <span>MatLab</span> and <span>C++ (Arduino)</span>. I try to be language agnostic. I have knowledge in: <span>Photoshop</span>, <span>Illustrator</span>, <span>Premiere</span> and <span>Protols</span>. I designed Web with <span>Adobe XD</span></p>
 			</Description>
 			<Description>
 				<h2>I love to learn</h2>
