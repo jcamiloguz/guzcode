@@ -27,13 +27,6 @@ export const MainHome = () => {
 		}
 			,
 		{
-			id: 4,
-			name: 'NODEJS',
-			color: '#3E863D',
-			Description: '',
-			Icon: DiNodejsSmall
-		},
-		{
 			id: 5,
 			name: 'SASS',
 			color: '#CF649A',
