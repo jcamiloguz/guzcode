@@ -1,11 +1,14 @@
 import styled from 'styled-components'
 
 export const Slideritem = styled.div`
-height:250px;
+height:200px;
 width:200px;
 border-radius:4px; 
 background-color:${props => props.color || '#333'};
-display:inline-block;
+display:inline-flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 margin-left:10px;
 cursor: pointer;
 transition:450ms all;

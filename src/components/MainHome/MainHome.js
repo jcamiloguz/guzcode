@@ -63,9 +63,17 @@ export const MainHome = () => {
 				<p>I'm <span>software developer</span>  focused in <span light="true">web</span>  tecnologies based in Cali-Colombia, i'm also  <span>Multimedia enginering</span> student.</p>
 			</Description>
 			<Tecnologies>
-				<h2>Tecnologies</h2>
+				<h2>My stack</h2>
 				<Slider state={SliderState} />
 			</Tecnologies>
+			<Description>
+				<h2>Other skills: </h2>
+				<p>I coded in <span >C#</span>,  <span>Java</span>, <span>MatLab</span> and <span>C++ (Ardunio)</span>. I try to be language agnostic. I have fundamentals of <span>Photoshop</span>, <span>Illustrator</span>, <span>Premiere</span> and <span>Protols</span>. I designed Web with <span>Adobe XD</span></p>
+			</Description>
+			<Description>
+				<h2>But i love to learn</h2>
+				<p>Other <span light='true'>technologies</span> what i interested for: <span>Vue.js</span> as an alternative to react, <span>Next.js</span> for server side rendering, <span>Gatsby</span> for static site generator, <span>GitLab</span> for Ci and Cd, Python for backend with <span>Django</span> </p>
+			</Description>
 
 		</MainContainer>
 	)

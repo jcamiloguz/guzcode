@@ -8,7 +8,7 @@ export const Description = styled.div`
 text-align:center;
 width:100%;
 max-width:500px;
-margin:0 auto;
+margin:80px auto;
 h2{
 font-size:2.5rem;
 color:var(--lightColor);

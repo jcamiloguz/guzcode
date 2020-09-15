@@ -1,5 +1,8 @@
 import React from 'react'
-
+import { Container } from './styles/NotFound'
 export const NotFound = () => (
-	<h1>404</h1>
+	<Container>
+		<h1>404</h1>
+		<h2>Not Found</h2>
+	</Container>
 )

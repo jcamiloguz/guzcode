@@ -14,11 +14,12 @@ export const Platzi = () => {
 				<ul>
 					<li>Fundamentals in software engineering</li>
 					<li>Git flow</li>
+					<li>NPM</li>
 					<li>Web development (HTML CSS)</li>
-					<li>Javascript as main language(vanilla SPA, routers, NODEJS, Async)</li>
+					<li>Javascript as main language(vanilla SPA, routers, NODEJS, Async, ECS+)</li>
 					<li>ReactJS (Hooks, Styled-Components )</li>
-					<li>Web design(Adobe XD)</li>
-					<li>Audio and image processing (Python)</li>
+					<li>Webpack</li>
+					<li>Terminal comands</li>
 				</ul>
 				<a href="https://platzi.com/@jcamiloguz/">Platzi profile</a>
 			</Info>
